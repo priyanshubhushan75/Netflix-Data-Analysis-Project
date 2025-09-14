@@ -1,12 +1,11 @@
 # 📊 Netflix Data Analysis & Insights  
 
-## 📌 Project Overview  
-This project analyzes the **Netflix dataset** to explore content trends, top actors, genres, release patterns, and more.  
-Along with **EDA (Exploratory Data Analysis)**, the project also applies **Machine Learning techniques** such as classification, clustering, sentiment analysis, and recommendation systems.  
+📌 Project Overview
 
-The goal is to **uncover insights about Netflix’s content library** and practice **data visualization + ML concepts**.  
+This project analyzes the Netflix dataset to explore content trends, top actors, genres, release patterns, and more.
+Using Pandas for data manipulation and Matplotlib & Seaborn for visualization, the project performs Exploratory Data Analysis (EDA) to uncover patterns and trends in Netflix’s content library.
 
----
+The goal is to derive actionable insights through data analysis and visualization and understand audience preferences across different content types and regions.
 
 ## ⚙️ Tech Stack  
 - **Python** (Pandas, NumPy)  
