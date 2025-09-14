@@ -11,8 +11,6 @@ The goal is to **uncover insights about Netflix’s content library** and practi
 ## ⚙️ Tech Stack  
 - **Python** (Pandas, NumPy)  
 - **Visualization**: Matplotlib, Seaborn  
-- **Machine Learning**: Scikit-learn, Statsmodels  
-- **NLP**: TextBlob  
 - **Jupyter Notebook**  
 
 ---
@@ -30,32 +28,6 @@ The goal is to **uncover insights about Netflix’s content library** and practi
 - **Dashboards** – Multi-chart dashboards with 6 plots (top countries, actors, years, ratings, longest movies, genres).  
 
 ---
-
-## 🤖 Machine Learning Experiments  
-
-### 1️⃣ **Recommendation System**  
-- Built a **content-based filtering recommender** using TF-IDF + Cosine Similarity.  
-- Suggests similar titles based on cast, director, and genre.  
-
-### 2️⃣ **Classification (Movie vs TV Show)**  
-- Features: Duration, Genre.  
-- Model: Random Forest Classifier.  
-- Achieved high accuracy in predicting type.  
-
-### 3️⃣ **Time Series Forecasting**  
-- Used ARIMA model on **release_year trends**.  
-- Forecasts number of titles Netflix may release in the next 5 years.  
-
-### 4️⃣ **Clustering Genres**  
-- Applied **K-Means** on genre text features.  
-- Grouped genres into 5 clusters for content categorization.  
-
-### 5️⃣ **Sentiment Analysis (Descriptions)**  
-- Analyzed `description` column using TextBlob.  
-- Sentiment polarity distribution shows overall positive/neutral tone.  
-
----
-
 ## 📂 Project Structure  
 ```
 Netflix-Analysis/
@@ -97,6 +69,3 @@ Netflix-Analysis/
 ## 🏆 Key Learnings  
 - Data cleaning & preprocessing in Pandas.  
 - Multi-plot dashboards with Matplotlib.  
-- Applying ML concepts (Classification, Clustering, Forecasting).  
-- Building a simple **Recommender System**.  
-- NLP sentiment analysis.  
